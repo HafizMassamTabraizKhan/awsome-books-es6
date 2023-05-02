@@ -4,7 +4,7 @@ import Contact from './modules/Contact.js';
 import { mainContainer, navLinks } from './modules/DOMVariables.js';
 import BooksList from './modules/BooksList.js';
 import RemoveBook from './modules/RemoveBook.js';
-import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
+import { DateTime } from './modules/Luxon.js';
 
 document.querySelector('time').innerText = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
 
