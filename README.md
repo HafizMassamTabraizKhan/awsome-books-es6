@@ -69,6 +69,7 @@ After you're finished please remove all the comments and instructions!
 2- CSS.
 3- JAVASCRIPT
 4- LINTERS.
+5- ES6
 
 ### Tech Stack <a name="tech-stack"></a>
 
