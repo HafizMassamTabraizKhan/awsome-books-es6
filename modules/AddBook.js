@@ -1,7 +1,7 @@
 import Book from './Book.js';
 import { mainContainer } from './DOMVariables.js';
 
-const addBook = (bookStore) => {
+const AddBook = (bookStore) => {
   mainContainer.innerHTML = `
     <h2 class='text-center'>Add a new book</h2>
     <form action='' class='d-flex flex-column w-50 mx-auto gap-4 mt-4'>
@@ -36,7 +36,7 @@ const addBook = (bookStore) => {
     const titleValue = titleInput.value;
     const authorValue = authorInput.value;
 
-    const newBook = new Book(titleValue, authorValue);
+    const book = new Book(titleValue, authorValue);
 
     titleInput.className = 'form-control';
     authorInput.className = 'form-control';
@@ -55,10 +55,10 @@ const addBook = (bookStore) => {
       return;
     }
 
-    bookStore.addBook(newBook);
+    bookStore.addBook(book);
     titleInput.value = '';
     authorInput.value = '';
   });
 };
 
-export default addBook;
+export default AddBook;

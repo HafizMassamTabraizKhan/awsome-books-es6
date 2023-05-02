@@ -1,4 +1,4 @@
-import { getBooks, setBooks } from './storage.js';
+import { getBooks, setBooks } from './Storage.js';
 
 export default class BookStore {
   constructor() {
@@ -7,7 +7,7 @@ export default class BookStore {
 
   // Add book to booksArray
   addBook(book) {
-    book.id = this.booksArray.length + 1;
+    book.id = Math.floor(Math.random() * 1000);
     this.booksArray.push(book);
     setBooks(this.booksArray);
   }

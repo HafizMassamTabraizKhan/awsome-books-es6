@@ -1,5 +1,5 @@
 // REMOVE A BOOK
-const removeBook = (bookStore) => {
+const RemoveBook = (bookStore) => {
   document.addEventListener('click', (e) => {
     if (e.target.classList.contains('remove-btn')) {
       bookStore.remove(e.target.id);
@@ -12,4 +12,4 @@ const removeBook = (bookStore) => {
   });
 };
 
-export default removeBook;
+export default RemoveBook;

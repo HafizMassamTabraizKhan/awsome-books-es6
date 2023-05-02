@@ -1,6 +1,6 @@
 import { mainContainer } from './DOMVariables.js';
 
-const contact = () => {
+const Contact = () => {
   mainContainer.innerHTML = `
     <section class="d-flex flex-column justify-content-center align-items-center">
       <h2 class='text-center'>Contact Information</h2>
@@ -17,4 +17,4 @@ const contact = () => {
   `;
 };
 
-export default contact;
+export default Contact;
