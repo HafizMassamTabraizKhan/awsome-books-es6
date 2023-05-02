@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Awsome Books <a name="about-project"></a>
 
-> This project is done with HTML, CSS, JavaScript and ES6 modules.
+> "Awesome Books" is a necessary project for learning JavaScript in the Microverse curriculum. The project is essentially a list of books in which you are able to add or remove books from the list.
 
 ## 🛠 Built With <a name="built-with"></a>
 1- HTML.
